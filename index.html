@@ -57,7 +57,7 @@
   // see more basemap options at https://leaflet-extras.github.io/leaflet-providers/preview/
 
   // Read markers data from data.csv
-  $.get('./Alminhas_OAz2.csv', function(csvString) {
+  $.get('./Alminhas_OAz_2.csv', function(csvString) {
 
     // Use PapaParse to convert string to array of objects
     var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
